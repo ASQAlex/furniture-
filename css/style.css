@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+button {
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+
+.container {
+    padding: 0 25px;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header__content {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-left: 115px;
+    margin-right: 95px;
+}
+
+.header__link {
+    margin: 0 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.social__header {
+    display: flex;
+    align-items: center;
+}
+
+.instagram {
+    margin-right: 15px;
+}
+
+.header__phone {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.phone {
+    margin-right: 10px;
+}
+
+.slider__item {
+    min-height: 690px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 102%;
+}
+
+.slider__info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+
+.slider__text {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.slider__button {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 22px 56px;
+    background: #AE7B3C;
+}
+
+.slider__button:hover {
+    background: #CC9654;
+}
+
+.text__line-a {
+    max-width: 640px;
+}
+
+.text__line-b {
+    max-width: 480px;
+}
+
+.text__line-c {
+    max-width: 540px;
+}
+
+.slider__line {
+    margin-top: 120px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.4;
+    width: 1200px;
+}
