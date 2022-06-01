@@ -12,8 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,33 +37,46 @@
         </div>
     </header>
 
-    <div class="slider">
-        <div class="slider__item" style="background-image: url(images/slider-3.jpg);">
-            <div class="slider__info">
-                <h1 class="slider__title">ВИРОБНИЦТВО <br> МЕБЛІ</h1>
-                <p class="slider__text text__line-c">Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
-                <button class="slider__button">Обговорити проект</button>
-                <p class="slider__line"></p>
+    <div class="wrapper">
+        <div class="swiper">
+            <div class="image-slider swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="swiper__img" src="/images/slider-3.jpg" alt="">
+                    <div class="slider__content">
+                        <h1 class="slider__title">ВИРОБНИЦТВО <br> МЕБЛІ</h1>
+                        <p class="slider__text text__line-c">Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
+                        <button class="slider__button">Обговорити проект</button>
+                        <p class="slider__line"></p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="swiper__img" src="/images/slider-1.jpg" alt="">
+                    <div class="slider__content">
+                        <h1 class="slider__title">КОМПЛЕКСНЕ МЕБЛЮВАННЯ <br> ІНТЕРЄРІВ</h1>
+                        <p class="slider__text text__line-a">Ми створені виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень. Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні. Ми забезпечуємо ваш спокій та беремо на себе
+                            вирішення будь-яких задач.
+                        </p>
+                        <button class="slider__button">Обговорити проект</button>
+                        <p class="slider__line"></p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img class="swiper__img" src="/images/slider-2.jpg" alt="">
+                    <div class="slider__content">
+                        <h1 class="slider__title">ДИЗАЙН <br> ІНТЕРЄРУ</h1>
+                        <p class="slider__text text__line-b">В дизайні ми поєднуємо стильні ідеї з практичною ергономікою та можливістю точно реалізувати візуалізацію. Наш інтер`єр - це ваш індивідуальний простір, зона комфорту в житті та роботі
+                        </p>
+                        <button class="slider__button">Обговорити проект</button>
+                        <p class="slider__line"></p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="slider__item" style="background-image: url(images/slider-1.jpg);">
-            <div class="slider__info">
-                <h1 class="slider__title">КОМПЛЕКСНЕ МЕБЛЮВАННЯ <br> ІНТЕРЄРІВ</h1>
-                <p class="slider__text text__line-a">Ми створені виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень. Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні. Ми забезпечуємо ваш спокій та беремо на себе вирішення
-                    будь-яких задач.
-                </p>
-                <button class="slider__button">Обговорити проект</button>
-                <p class="slider__line"></p>
-            </div>
-        </div>
-        <div class="slider__item" style="background-image: url(images/slider-2.jpg);">
-            <div class="slider__info">
-                <h1 class="slider__title">ДИЗАЙН <br> ІНТЕРЄРУ</h1>
-                <p class="slider__text text__line-b">В дизайні ми поєднуємо стильні ідеї з практичною ергономікою та можливістю точно реалізувати візуалізацію. Наш інтер`єр - це ваш індивідуальний простір, зона комфорту в житті та роботі
-                </p>
-                <button class="slider__button">Обговорити проект</button>
-                <p class="slider__line"></p>
-            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
         </div>
     </div>
 
@@ -127,7 +139,7 @@
     </div>
 
 
-    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/main.js"></script>
