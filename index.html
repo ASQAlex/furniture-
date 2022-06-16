@@ -78,8 +78,14 @@
                 <span class="swiper-pagination-bullet">2</span>
                 <span class="swiper-pagination-bullet">3</span>
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="nawigation__arrows">
+                <div class="swiper-button-prev swiper-button-nawigation">
+                    <img class="images-arrows" src="images/arrow-left.svg" alt="">
+                </div>
+                <div class="swiper-button-next swiper-button-nawigation">
+                    <img class="images-arrows" src="images/arrow-right.svg" alt="">
+                </div>
+            </div>
         </div>
     </div>
 
@@ -238,19 +244,27 @@
     <div class="project">
         <div class="container">
             <div class="project__container">
-                <h1 class="project__title">Обговоримо ваш проект?</h1>
-                <p class="project__text"></p>
-                <form>
-                    <input class="feedback__input" type="text" placeholder="Ім'я">
-                    <input class="feedback__input" type="text" placeholder="Номер телефону">
-                </form>
-                <div class="project__file">
-                    <p class="text__file">Прикріпити проект</p>
-                    <img class="file__img" src="images/project-file.svg" alt="">
+                <div class="project__left">
+                    <h1 class="project__title">Обговоримо ваш проект?</h1>
+                    <p class="project__text">Заповніть форму і найближчим часом ми зв'яжемося з вами!</p>
+                    <form>
+                        <input class="feedback__input" type="text" placeholder="Ім'я">
+                        <input class="feedback__input" type="text" placeholder="Номер телефону">
+                    </form>
+                    <button class="project__file">
+                        <img class="file__img" src="images/project-file.svg" alt="">
+                        <p class="text__file">Прикріпити проект</p>
+                    </button>
+                    <button class="slider__button project__button">Відправити</button>
+                    <button class="i__gree">
+                        <p class="gree__nok">
+                        <p class="gree__ok"></p>
+                        </p>
+                        <p class="gree__text">Даю згоду на оброблення персональних даних</p>
+                    </button>
                 </div>
-                <button class="slider__button project__button">Відправити</button>
+                <img class="project__img" src="images/project-rigth.jpg" alt="">
             </div>
-            <img class="project__img" src="images/project-rigth.jpg" alt="">
         </div>
     </div>
 
